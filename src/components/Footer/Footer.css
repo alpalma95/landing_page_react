@@ -1,0 +1,7 @@
+.footer {
+  background-color: var(--primary);
+  padding: 2.5rem 0;
+  text-align: center;
+  color: var(--white);
+  font-family: var(--roboto);
+}

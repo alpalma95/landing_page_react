@@ -1,0 +1,15 @@
+.quote {
+  background-color: var(--grey);
+  font-family: var(--roboto);
+  font-size: 2rem;
+  color: var(--primary);
+}
+
+.quote__title {
+  padding: 7rem 0;
+}
+
+.quote__subtitle {
+  text-align: end;
+  font-weight: 900;
+}

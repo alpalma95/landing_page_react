@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
+import CardsSection from "./components/CardsSection/CardsSection";
+import Quote from "./components/Quote/Quote";
+import Call from "./components/Call/Call";
+import Footer from "./components/Footer/Footer";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Hero />
+      <CardsSection />
+      <Quote
+        text="Eventually, I'll be able to make also dynamic websites. Gimme some time..."
+        text2="- Me, myself."
+      />
+      <Call />
+      <Footer />
     </div>
   );
 }

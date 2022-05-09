@@ -1,0 +1,12 @@
+button {
+  font-family: var(--roboto);
+  font-size: 1.2rem;
+  font-weight: 900;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border: 2px solid var(--white);
+  border-radius: 4px;
+  color: var(--white);
+  background-color: var(--secondary);
+  width: fit-content;
+}

@@ -1,0 +1,21 @@
+.cards-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 1rem;
+}
+
+.cards-section__card {
+  width: 100%;
+}
+
+@media (min-width: 40rem) {
+  .cards-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .cards-section__card {
+    width: 20%;
+  }
+}
